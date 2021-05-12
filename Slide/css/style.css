@@ -25,7 +25,7 @@ html, body {
 }
 .card .slider {
     position: relative;
-    animation: 15s slide normal;
+    animation: 15s slide infinite;
 }
 .card .slider h2{
     width: 100%;
@@ -37,7 +37,7 @@ html, body {
     width: 200px;
     margin: 200px;
     padding: 0;
-    
+    margin-left: 130px;
     margin: 0;
 }
 
