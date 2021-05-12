@@ -1,0 +1,65 @@
+
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: arial;
+    
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 300px; 
+    
+    border: solid black;
+    overflow: hidden;
+   
+    
+}
+#card div {
+    display: flex;
+}
+.card .slider {
+    position: relative;
+    animation: 15s slide normal;
+}
+.card .slider h2{
+    width: 100%;
+    margin: 120px;
+    margin-left: 130px;
+    
+}
+.card .slider img {
+    width: 200px;
+    margin: 200px;
+    padding: 0;
+    
+    margin: 0;
+}
+
+
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    40% {
+        left: -100%;
+    }
+    60% {
+        left: -200%;
+    }
+    80% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
